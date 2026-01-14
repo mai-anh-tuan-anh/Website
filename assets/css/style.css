@@ -362,8 +362,18 @@ a {
   padding: 96px 0;
   background: #2e2100;
 }
-.feedback-item {
+
+.feedback-list {
   display: flex;
+  overflow: hidden;
+}
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
+.feedback-item .info {
+  margin-left: auto;
 }
 .feedback-item .avatar {
   width: 72px;
@@ -396,6 +406,11 @@ a {
   border-radius: 50%;
   background: #634700;
   cursor: pointer;
+}
+.feedback-item .open-quotes {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 .feedback-item .dot.active {
   background: var(--primary-color);
