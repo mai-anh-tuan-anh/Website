@@ -256,6 +256,7 @@ a {
 .popular {
   padding: 65px 0px;
   margin-top: 135px;
+  background: #f8e7b9;
 }
 .popular-top {
   display: flex;
@@ -426,10 +427,12 @@ a {
   font-style: italic;
   line-height: 1.54;
 }
-/* features */
+
+/* features 1 */
 .features {
   margin-top: 135px;
   padding: 65px 0;
+  background: #f8e7b9;
 }
 .features .body {
   display: flex;
@@ -465,4 +468,20 @@ a {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+
+/* features 2 */
+.features-2nd {
+  margin-top: 70px;
+  background: #f8e7b9;
+}
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+.features-2nd .content {
+  width: 49%;
+}
+.features-2nd .images img {
+  width: 500px;
+  height: 500px;
 }
